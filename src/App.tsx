@@ -6,7 +6,7 @@ function App() {
   const [currentRole, setCurrentRole] = useState(0);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isMuted, setIsMuted] = useState(true);
+  // const [isMuted, setIsMuted] = useState(true);
   const [activeSection, setActiveSection] = useState('home');
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -79,7 +79,22 @@ function App() {
   // Real projects from your LinkedIn profile
   const projects = [
     {
-      id: 1,
+      id:1,
+      title:"AI Startup Idea Validator",
+      description:"AI-Powered Startup Validator is a platform designed to help entrepreneurs validate their startup ideas efficiently. It combines an interactive AI agent, data-driven validation, and real-time chat to guide founders in improving their problem statements, solutions, target markets, teams, and business models. Users can submit their ideas and receive instant feedback and scoring, while experts provide deeper analysis, suggestions, and mentorship.Three-Tier Client-Server Architecture with AI Integration.software development lifecycle (SDLC) with an Agile/Iterative approach",
+      image:"/sivimg.png",
+      technologies:["React.js", "Node.js (Express)", "JWT", "MongoDB"," PineconeDB", "FastAPI"," LangChain"],
+      category:"AI",
+      duration:" Aug 2025 – Oct 2025 ",
+      status:"Completed",
+      github:"https://github.com/mad674/startupideavalidator",
+      demo:"https://startupideavalidator.vercel.app/",
+      highlights:["AI Agent for startup idea validation","Enhanced featues like experts real time chat, MCP chatbot, suggestions."],
+      impact:"simplified startup idea validation",
+      complexity:"Medium"
+    },
+    {
+      id: 2,
       title: "Financial Question Answering System using FinQA",
       description: "Built a modular neuro-symbolic architecture for answering complex financial questions over tables, integrating a BERT-based retriever, LSTM-based program generator, and symbolic executor. Followed a structured ML lifecycle—including data preprocessing, modular training, component integration, and iterative evaluation—to ensure accuracy, interpretability, and scalability. The architecture combines neural networks for learning with symbolic reasoning for precise and interpretable decision-making, enabling robust and explainable QA over financial data. Developed end-to-end training and evaluation pipelines, and collaborated with domain experts to align model outputs with real-world financial reasoning and ensure practical applicability.",
       image: "/finimg.png",
@@ -98,7 +113,7 @@ function App() {
       complexity: "medium"
     },
     {
-      id: 2,
+      id: 3,
       title: "Jewelry Design Pattern Generation Project",
       description: "Developed a deep learning GAN-based system to generate creative and realistic jewelry design patterns. Leveraged generative adversarial networks to synthesize new designs, supporting the creative process for jewelry designers.",
       image: "/jewimg.png",
@@ -118,7 +133,7 @@ function App() {
   ];
 
   const skills = [
-    { name: "JavaScript/TypeScript", level: 72, category: "Frontend", icon: <Code /> },
+    { name: "JavaScript/TypeScript", level: 72, category: "Frontend", icon: <Code />},
     { name: "Python", level: 88, category: "Backend", icon: <Terminal /> },
     { name: "React/Next.js", level: 70, category: "Frontend", icon: <Layers /> },
     { name: "Node.js", level: 75, category: "Backend", icon: <Database /> },
