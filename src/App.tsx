@@ -224,7 +224,7 @@ function App() {
                   href="/madhavmeruva_resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-3 py-2 text-sm font-medium transition-all duration-300 capitalize relative group text-gray-300 hover:text-blue-400"
+                  className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
                 >
                   Resume
                   <span className="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-blue-400 to-purple-400 transition-all duration-300 group-hover:w-full" />
