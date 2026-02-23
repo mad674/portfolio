@@ -221,7 +221,7 @@ function App() {
                   </button>
                 ))}
                 <a
-                  href="/madhavmeruva_resume.pdf"
+                  href="/Madhav_MVS_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
@@ -730,7 +730,7 @@ function App() {
               <div className="text-gray-300 text-xs">madhi9</div>
             </a>
             {/* Resume */}
-            <a href="/madhavmeruva_resume.pdf" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-br from-gray-800 via-gray-900 to-pink-500 rounded-2xl p-6 border-2 border-gray-700 hover:border-pink-400 shadow-xl hover:scale-105 transition-all duration-300 flex flex-col items-center text-center">
+            <a href="/Madhav_MVS_Resume.pdf" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-br from-gray-800 via-gray-900 to-pink-500 rounded-2xl p-6 border-2 border-gray-700 hover:border-pink-400 shadow-xl hover:scale-105 transition-all duration-300 flex flex-col items-center text-center">
               <FileText size={40} className="mb-3 text-pink-400 group-hover:text-pink-500 transition-colors" />
               <div className="font-bold text-lg text-white mb-1">Resume</div>
               <div className="text-pink-400 text-sm mb-2">PDF</div>
@@ -783,7 +783,7 @@ function App() {
                   </div>
                 </div>
                 
-                <a href="/madhavmeruva_resume.pdf" download className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">
+                <a href="/Madhav_MVS_Resume.pdf" download className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">
                   <Download size={20} />
                   Download Resume
                 </a>
