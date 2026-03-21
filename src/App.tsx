@@ -221,7 +221,7 @@ function App() {
                   </button>
                 ))}
                 <a
-                  href="/Madhav_M_V_S_Resume.pdf"
+                  href="/Madhav_Meruva_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
@@ -309,7 +309,7 @@ function App() {
             </button>
             
             <a
-              href="https://www.linkedin.com/in/madhav-meruva-2b559b288/"
+              href="https://www.linkedin.com/in/madhavmeruva690/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 border-2 border-blue-500 text-blue-400 rounded-full font-semibold text-lg hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25"
@@ -654,7 +654,7 @@ function App() {
                 platform: "LinkedIn",
                 icon: <Linkedin size={32} />,
                 description: "Professional network",
-                link: "https://www.linkedin.com/in/madhav-meruva-2b559b288/",
+                link: "https://www.linkedin.com/in/madhavmeruva690/",
                 color: "text-blue-400",
                 stats: "50+ Connections"
               },
@@ -709,7 +709,7 @@ function App() {
               <div className="text-gray-300 text-xs">mad674</div>
             </a>
             {/* LinkedIn */}
-            <a href="https://www.linkedin.com/in/madhav-meruva-2b559b288/" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-br from-gray-800 via-gray-900 to-blue-900 rounded-2xl p-6 border-2 border-gray-700 hover:border-blue-500 shadow-xl hover:scale-105 transition-all duration-300 flex flex-col items-center text-center">
+            <a href="https://www.linkedin.com/in/madhavmeruva690/" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-br from-gray-800 via-gray-900 to-blue-900 rounded-2xl p-6 border-2 border-gray-700 hover:border-blue-500 shadow-xl hover:scale-105 transition-all duration-300 flex flex-col items-center text-center">
               <Linkedin size={40} className="mb-3 text-blue-400 group-hover:text-blue-500 transition-colors" />
               <div className="font-bold text-lg text-white mb-1">LinkedIn</div>
               <div className="text-blue-400 text-sm mb-2">Professional</div>
@@ -730,7 +730,7 @@ function App() {
               <div className="text-gray-300 text-xs">madhi9</div>
             </a>
             {/* Resume */}
-            <a href="/Madhav_M_V_S_Resume.pdf" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-br from-gray-800 via-gray-900 to-pink-500 rounded-2xl p-6 border-2 border-gray-700 hover:border-pink-400 shadow-xl hover:scale-105 transition-all duration-300 flex flex-col items-center text-center">
+            <a href="/Madhav_Meruva_Resume.pdf" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-br from-gray-800 via-gray-900 to-pink-500 rounded-2xl p-6 border-2 border-gray-700 hover:border-pink-400 shadow-xl hover:scale-105 transition-all duration-300 flex flex-col items-center text-center">
               <FileText size={40} className="mb-3 text-pink-400 group-hover:text-pink-500 transition-colors" />
               <div className="font-bold text-lg text-white mb-1">Resume</div>
               <div className="text-pink-400 text-sm mb-2">PDF</div>
@@ -769,7 +769,7 @@ function App() {
                   <div className="flex items-center gap-3 group">
                     <Linkedin className="text-blue-400 group-hover:scale-110 transition-transform" size={20} />
                     <a 
-                      href="https://www.linkedin.com/in/madhav-meruva-2b559b288/"
+                      href="https://www.linkedin.com/in/madhavmeruva690/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-300 hover:text-blue-400 transition-colors"
@@ -783,7 +783,7 @@ function App() {
                   </div>
                 </div>
                 
-                <a href="/Madhav_M_V_S_Resume.pdf" download className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">
+                <a href="/Madhav_Meruva_Resume.pdf" download className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-lg font-medium transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25">
                   <Download size={20} />
                   Download Resume
                 </a>
@@ -804,7 +804,7 @@ function App() {
               <a href="https://github.com/mad674" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform">
                 <Github size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/madhav-meruva-2b559b288/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform">
+              <a href="https://www.linkedin.com/in/madhavmeruva690/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform">
                 <Linkedin size={20} />
               </a>
               <a href="mailto:madhavmeruva690@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors hover:scale-110 transform">
